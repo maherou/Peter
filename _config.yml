@@ -1,0 +1,35 @@
+title: Peter Heroux Home Page
+description: > # this means to ignore newlines until "baseurl:"
+  Home page for Peter Heroux.
+permalink: ':title/'
+baseurl: "/Peter" # the subpath of your site, e.g. /blog Peter: Remove /Peter from the double quotes
+url: "https://maherou.github.io" # the base hostname & protocol for your site, e.g. http://example.com Peter: make this your root site
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Peter Heroux # add your name
+author-img: PeterOnBike.jpg # add your photo
+about-author: St. John's Prep student.  Learning is my job. # add description
+social-google:
+social-stack-overflow:
+social-github:  # add your Github handle
+social-linkedin:  # add your Linkedin handle
+social-email:  # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
